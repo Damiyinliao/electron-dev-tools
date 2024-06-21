@@ -2,6 +2,7 @@ import { Layout, Menu, Message } from '@arco-design/web-react';
 import { Link, useLocation, useMatches } from 'react-router-dom';
 import { useAppStore } from '@/stores/app';
 import AcroIcon from '@/components/AcroIcon/index';
+import { css } from '@emotion/css';
 
 const { Sider } = Layout;
 const { Item: MenuItem, SubMenu } = Menu;
@@ -68,9 +69,15 @@ export default function LayoutSider() {
     }
   }
 
+  const styles = css`
+    height: 32px;
+    margin: 12px 8px;
+    background: var(--color-fill-2);
+  `
+
   return (
     <Sider collapsed={collapsed} collapsible trigger={null} breakpoint='xl'>
-      <div className='logo' />
+      <div className={styles} />
       <Menu
         defaultOpenKeys={defaultOpenKeys}
         defaultSelectedKeys={defaultSelectedKeys}

@@ -1,6 +1,5 @@
 import { Layout, Button } from '@arco-design/web-react';
 import { IconCaretRight, IconCaretLeft } from '@arco-design/web-react/icon';
-import { useState } from 'react';
 import { useAppStore } from '@/stores/app';
 
 const { Header } = Layout;
