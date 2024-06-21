@@ -29,6 +29,7 @@
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "@vitejs/plugin-react": "^4.3.1",
@@ -39,7 +40,8 @@
     "ts-node": "^10.9.2",
     "typescript": "~4.5.4",
     "unocss": "^0.61.0",
-    "vite": "^5.3.0"
+    "vite": "^5.3.0",
+    "vite-plugin-svg-icons": "^2.0.1"
   },
   "keywords": [],
   "author": {
@@ -51,10 +53,12 @@
     "@arco-design/web-react": "^2.63.0",
     "@emotion/css": "^11.11.2",
     "@tabler/icons-react": "^3.6.0",
+    "@uiw/react-json-view": "^2.0.0-alpha.24",
     "electron-squirrel-startup": "^1.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
+    "react-syntax-highlighter": "^15.5.0",
     "zustand": "^4.5.2"
   }
 }
